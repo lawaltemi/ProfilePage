@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background: #581c1c;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-picture{
+    height: 300px;
+    border-radius: 50%;
+}
+img{
+    height: 100%;
+    border-radius: 50%;
+}
+.main,
+.profile{
+    padding: 60px;
+    
+}
+.profile{
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(150, 143, 143);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(200, 194, 194);
+}
+.name{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 15px;
+}
